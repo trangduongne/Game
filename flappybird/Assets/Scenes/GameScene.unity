@@ -2402,7 +2402,7 @@ MonoBehaviour:
   pipe: {fileID: 1684962498547335853, guid: 823d3a2c7bbae964ea7b37551b8ee02a, type: 3}
   maxTime: 1
   height: 1
-  spacing: 5
+  spacing: 4
   bird: {fileID: 592467171}
 --- !u!4 &979486938
 Transform:
@@ -3471,7 +3471,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

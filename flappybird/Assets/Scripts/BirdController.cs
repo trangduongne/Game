@@ -1,7 +1,4 @@
-using UnityEditor.Build.Content;
-using UnityEditor.Callbacks;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class BirdController : MonoBehaviour
 {

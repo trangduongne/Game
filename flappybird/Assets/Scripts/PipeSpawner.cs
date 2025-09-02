@@ -27,7 +27,7 @@ public class PipeSpawner : MonoBehaviour
             float spawnY = bird.transform.position.y + Random.Range(-height, height);  // Random vị trí Y của ống
 
             // Sinh ống mới
-            Vector3 spawnPosition = new Vector3(lastPipeX, spawnY, 0);
+            Vector3 spawnPosition = new Vector3(lastPipeX, 0, 0);
             GameObject temp = Instantiate(pipe, spawnPosition, Quaternion.identity);
 
             

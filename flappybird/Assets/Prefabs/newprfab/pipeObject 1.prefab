@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9222439954100512633}
   - component: {fileID: 1504374719066334541}
+  - component: {fileID: -6378490928655837612}
   m_Layer: 0
   m_Name: pipeObject 1
   m_TagString: Pipe
@@ -79,6 +80,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-6378490928655837612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684962498547335853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9155bbff8426ff4cbf777aee4549c22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
 --- !u!1 &2681953497877909625
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,7 +251,6 @@ GameObject:
   - component: {fileID: 352885942230258361}
   - component: {fileID: 4136919157542150449}
   - component: {fileID: 1773580935890835206}
-  - component: {fileID: 1434264777578128403}
   m_Layer: 0
   m_Name: pipe-green_0
   m_TagString: Pipe
@@ -363,19 +376,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.52, y: 3.2}
   m_EdgeRadius: 0
---- !u!114 &1434264777578128403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4170931299427785601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9155bbff8426ff4cbf777aee4549c22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
 --- !u!1 &4517902984325885735
 GameObject:
   m_ObjectHideFlags: 0
