@@ -15,6 +15,7 @@ public class Controller : MonoBehaviour
     public GameObject gameWinPanel;
     public GameObject start;
     [SerializeField] public Button startgame;
+    
     public bool isGameOver = false;
     public bool isGameWin = false;
     public canvasController canvasControllerr;
